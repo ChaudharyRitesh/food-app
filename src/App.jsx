@@ -1,12 +1,11 @@
 import React from "react";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-center text-gray-900">
-        Welcome To Food Delivery App
-      </h1>
-    </div>
+    <main className="container mt-10 mx-auto ">
+      <Navbar />
+    </main>
   );
 }
 
