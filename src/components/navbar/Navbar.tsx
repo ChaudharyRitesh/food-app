@@ -5,7 +5,7 @@ import { logo } from "../../assets/index";
 const Navbar = () => {
   return (
     <>
-      <header aria-label="Site Header" className="bg-white mt-8">
+      <nav aria-label="Site nav" className="bg-white mt-8">
         <div className=" px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="w-32 h-full">
@@ -95,7 +95,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </header>
+      </nav>
     </>
   );
 };
