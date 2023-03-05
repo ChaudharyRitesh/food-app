@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <main className="container mt-10 mx-auto ">
+    <main className="mx-auto max-w-screen-2xl ">
       <Navbar />
     </main>
   );
