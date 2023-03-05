@@ -67,7 +67,7 @@ const Navbar = () => {
                     <Unicons.UilShoppingBag size={25} color="black" />
                   </span>
                 </div>
-                <button className="rounded-full bg-red-400 px-8 py-4 text-white font-poppins font-light text-center text-sm flex flex-row items-center justify-center gap-1">
+                <button className="rounded-full bg-red-400 px-8 py-4 text-white font-poppins font-light text-center text-sm flex flex-row items-center justify-center gap-1 _sm:hidden">
                   <span>
                     <Unicons.UilSignout size={18} color="white" />
                   </span>{" "}
