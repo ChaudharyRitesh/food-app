@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./components/navbar/Navbar";
+import LandingPage from "./layouts/index";
 
 function App() {
   return (
     <main className="mx-10 max-w-full ">
-      <Navbar />
+      <LandingPage />
     </main>
   );
 }
