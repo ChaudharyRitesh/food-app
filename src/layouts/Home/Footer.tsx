@@ -14,7 +14,7 @@ const Footer = () => {
                 <img src={logo} alt="logo" className="h-full w-full" />
               </div>
 
-              <p className="mt-6 max-w-md text-center text-[16px] font-poppins font-medium leading-loose text-gray-700 _sm:max-w-xs _sm:text-justify _sm:leading-8 _md:text-justify">
+              <p className="mt-6 max-w-md text-center text-[16px] font-poppins font-medium leading-loose text-gray-700 sm:max-w-xs sm:text-left">
                 Our job is to filling your tummy with delicious food and with
                 fast and free delivery.
               </p>
