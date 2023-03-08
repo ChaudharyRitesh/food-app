@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <footer aria-label="Site Footer" className="bg-white">
         <div className="pt-16 pb-6 _sm:px-6 lg:pt-24">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
             <div>
               <div className="w-32 h-[45px]">
                 <img src={logo} alt="logo" className="h-full w-full" />
@@ -86,7 +86,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 _md:mt-[35px] md:grid-cols-4 lg:col-span-2">
               <div className="text-center sm:text-left">
                 <p className="text-[20px] font-bold font-poppins text-gray-900">
                   About Us
@@ -254,7 +254,7 @@ const Footer = () => {
                     type="email"
                     id="UserEmail"
                     placeholder="Email Address"
-                    className="w-full rounded-full border-gray-400 py-4 pl-4 shadow-sm sm:text-sm _md:pl-2"
+                    className="w-full rounded-full border-gray-400 py-4 pl-4 shadow-sm sm:text-sm _md:pl-4 _md:full"
                   />
 
                   <span className="absolute inset-y-0 right-0 grid w-10 pr-4 place-content-center _md:pr-1 ">
