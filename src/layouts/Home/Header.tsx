@@ -14,13 +14,13 @@ const Header = () => {
             </h1>
           </div>
           <div className="content-right">
-            <div className="hero-image w-[450px] h-[450px]">
+            {/* <div className="hero-image w-[450px] h-[450px]">
               <img
                 src={heroimage}
                 alt="hero"
                 className="w-full h-full bg-contain bg-no-repeat"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

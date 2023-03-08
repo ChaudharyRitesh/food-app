@@ -8,7 +8,7 @@ const Navbar = () => {
       <header aria-label="Site Navbar" className="bg-white mt-8">
         <div className="">
           <div className="flex items-center justify-between">
-            <div className="w-32 h-full">
+            <div className="w-32 h-full _md:w-full _md:h-full">
               <img
                 src={logo}
                 alt="logo fudo app"
