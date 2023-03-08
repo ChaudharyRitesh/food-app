@@ -9,11 +9,13 @@ module.exports = {
       screens: {
         sm: "640px",
         md: "768px",
+        xmd: "1024px",
         lg: "1240px",
         xl: "1440px",
 
         _sm: { max: "640px" }, // custom sm
         _md: { max: "768px" }, // custom md
+        _xmd: { max: "1024px" }, // custom xmd
         _lg: { max: "1240px" }, // custom lg
         _xl: { max: "1440px" },
       },

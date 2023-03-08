@@ -7,8 +7,8 @@ const Navbar = () => {
     <>
       <header aria-label="Site Navbar" className="bg-white mt-8">
         <div className="">
-          <div className="flex items-center justify-between">
-            <div className="w-32 h-full _md:w-full _md:h-full">
+          <div className="flex items-center justify-between _md:flex">
+            <div className="w-32 h-full _md:w-28 _md:h-full">
               <img
                 src={logo}
                 alt="logo fudo app"
@@ -19,7 +19,7 @@ const Navbar = () => {
 
             <div className="hidden md:block">
               <nav aria-label="Site Nav">
-                <ul className="flex items-center gap-16 text-md font-poppins font-medium">
+                <ul className="flex items-center gap-16 text-md font-poppins font-medium _md:gap-5 _md:text-sm _xmd:gap-7">
                   <li>
                     <a
                       className="text-[#EB5757] transition hover:text-[#EB5757]/75"
@@ -58,8 +58,8 @@ const Navbar = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="flex flex-row items-center justify-around gap-11">
-                <div className="div flex flex-row gap-10 _sm:hidden _md:hidden">
+              <div className="flex flex-row items-center justify-around gap-11 _xmd:gap-6">
+                <div className="div flex flex-row gap-10 _sm:hidden _md:hidden _xmd:gap-4">
                   <span>
                     <Unicons.UilSearch size={25} color="black" />
                   </span>
