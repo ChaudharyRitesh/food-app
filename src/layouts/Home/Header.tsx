@@ -7,20 +7,16 @@ const Header = () => {
     <>
       <Navbar />
       <div className="hero">
-        <div>
+        <div className="grid grid-cols-2 _lg:grid-cols-6">
           <div className="content-left">
             <h1>
               I'm a <span className="text-primary">Full Stack Developer</span>
             </h1>
           </div>
           <div className="content-right">
-            {/* <div className="hero-image w-[450px] h-[450px]">
-              <img
-                src={heroimage}
-                alt="hero"
-                className="w-full h-full bg-contain bg-no-repeat"
-              />
-            </div> */}
+            <div className="hero-image">
+              <img src={heroimage} alt="hero" className="w-full" />
+            </div>
           </div>
         </div>
       </div>
