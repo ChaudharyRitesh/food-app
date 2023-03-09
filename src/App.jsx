@@ -3,7 +3,7 @@ import LandingPage from "./layouts/index";
 
 function App() {
   return (
-    <main className="mx-auto max-w-screen-xl ">
+    <main className="mx-14 max-w-full ">
       <LandingPage />
     </main>
   );
