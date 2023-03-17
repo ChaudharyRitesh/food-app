@@ -1,8 +1,8 @@
-# food-app
+## food-app
 fullstack food app
 
-#Installation
+## Installation
 yarn
 
-#run
+## run
 yarn dev
