@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <Navbar />
       <div className="hero pt-16">
-        <div className="grid grid-cols-2 _lg:grid-cols-6">
+        <div className="grid xmd:grid-cols-2 _md:flex _md:flex-col">
           <div className="content-left">
             <div className="btnContainer pt-20">
               <button className="outline-none border-none bg-[#FEE9DE] flex flex-row items-center justify-center gap-4 px-7 py-4 rounded-full">
@@ -57,7 +57,7 @@ const Header = () => {
             </div>
           </div>
           <div className="content-right">
-            <div className="hero-image">
+            <div className="hero-image ">
               <img src={heroimage} alt="hero" className="w-full" />
             </div>
           </div>
