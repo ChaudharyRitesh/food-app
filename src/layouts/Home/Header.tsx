@@ -1,23 +1,20 @@
 import React from "react";
 import Navbar from "../../components/navbar/Navbar";
-import { heroimage, cherrySvg, playIconSvg } from "../../assets/index";
-import * as Unicons from "@iconscout/react-unicons";
+import { heroimage, cherrySvg } from "../../assets/index";
 
 const Header = () => {
   return (
     <>
       <Navbar />
-      <div className="hero pt-16">
-        <div className="grid xmd:grid-cols-2 _md:flex _md:flex-col">
+      <div className="hero bg-slate-600">
+        <div className="grid xmd:grid-cols-2 _md:flex _md:flex-col pt-20 ">
           <div className="content-left">
-            <div className="btnContainer pt-20">
-              <button className="outline-none border-none bg-[#FEE9DE] flex flex-row items-center justify-center gap-4 px-7 py-4 rounded-full">
-                <span className="text-[#EB5757] text-base leading-6 font-poppins font-medium capitalize _md:text-lg">
-                  More than faster
-                </span>
-                <img src={cherrySvg} alt="cherry" className="w-auto" />
-              </button>
-            </div>
+            <button className="outline-none border-none bg-[#FEE9DE] flex flex-row items-center justify-center gap-4 px-7 py-4 rounded-full">
+              <span className="text-[#EB5757] text-base leading-6 font-poppins font-medium capitalize _md:text-lg">
+                More than faster
+              </span>
+              <img src={cherrySvg} alt="cherry" className="w-auto" />
+            </button>
 
             <div className="info-text pt-10 flex flex-col flex-wrap">
               <h1 className="text-[72px] text-[##333333] text-start font-poppins font-bold leading-[90px] w-full ">
@@ -58,7 +55,7 @@ const Header = () => {
           </div>
           <div className="content-right">
             <div className="hero-image ">
-              <img src={heroimage} alt="hero" className="w-full" />
+              <img src={heroimage} alt="hero" className="w-full h-full" />
             </div>
           </div>
         </div>
