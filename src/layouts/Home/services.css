@@ -1,0 +1,21 @@
+.heading {
+  position: relative;
+}
+
+.heading::after {
+  content: url(./redRect.png);
+  position: absolute;
+  top: 60px;
+  left: 300px;
+  width: 25px;
+  height: 25px;
+}
+
+.heading::before {
+  content: url(./yellowRect.png);
+  position: absolute;
+  top: -35px;
+  right: 300px;
+  width: 25px;
+  height: 25px;
+}
