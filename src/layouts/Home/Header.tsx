@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <Navbar />
-      <div className="hero bg-slate-600">
+      <div className="hero ">
         <div className="grid xmd:grid-cols-2 _md:flex _md:flex-col pt-20 ">
           <div className="content-left">
             <button className="outline-none border-none bg-[#FEE9DE] flex flex-row items-center justify-center gap-4 px-7 py-4 rounded-full">

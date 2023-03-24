@@ -1,6 +1,29 @@
 [
-    {
-        "id": 1,
-        "image"
-    }
+  {
+    "id": 1,
+    "food_name": "Pizza Margherita",
+    "food_category": "Pizza",
+    "food_image": "https://images.unsplash.com/photo-1598023696416-0193a0bcd302?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl6emElMjBtYXJnaGVyaXRhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "rating": 4.5,
+    "price": 10.99,
+    "description": "A classic Italian pizza topped with tomato sauce, mozzarella cheese, and fresh basil leaves."
+  },
+  {
+    "id": 2,
+    "food_name": "Hamburger",
+    "food_category": "Burgers",
+    "food_image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "rating": 4.2,
+    "price": 8.99,
+    "description": "A juicy beef patty served on a sesame seed bun with lettuce, tomato, onion, and pickles."
+  },
+  {
+    "id": 3,
+    "food_name": "Pasta Carbonara",
+    "food_category": "Pasta",
+    "food_image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzdGElMjBjYXJib25hcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "rating": 4.7,
+    "price": 12.99,
+    "description": "A classic Italian pasta dish made with spaghetti, bacon, eggs, and Parmesan cheese."
+  }
 ]
