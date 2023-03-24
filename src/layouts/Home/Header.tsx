@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <>
       <Navbar />
-      <div className="hero ">
-        <div className="grid xmd:grid-cols-2 _md:flex _md:flex-col pt-20 ">
-          <div className="content-left">
+      <div className="hero pb-28">
+        <div className="grid xmd:grid-cols-2 _md:flex _md:flex-col  ">
+          <div className="content-left pt-36">
             <button className="outline-none border-none bg-[#FEE9DE] flex flex-row items-center justify-center gap-4 px-7 py-4 rounded-full">
               <span className="text-[#EB5757] text-base leading-6 font-poppins font-medium capitalize _md:text-lg">
                 More than faster
